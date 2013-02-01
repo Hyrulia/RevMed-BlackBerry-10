@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0" id="revmed">
+
+  <author href=""
+          rim:copyright="">SIM</author>
+
+  <name>RevMed</name>
+
+  <description>
+    Medical QCM
+  </description>
+
+  <feature id="blackberry.app.orientation">
+    <param name="mode" value="portrait" />
+  </feature>
+
+  <content src="menu.html" />
+
+  <icon src="css/img/bg_spec.jpg"/>
+
+  <rim:splash src="css/img/splashscreen.jpg"/>
+
+  <feature id="blackberry.ui.dialog"/>
+
+  <rim:permissions>
+  </rim:permissions>
+
+</widget>
