@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   'titanium',
+1 verbose cli   'version' ]
+2 info using npm@1.2.0
+3 info using node@v0.8.17
+4 verbose node symlink c:\Program Files (x86)\nodejs\\node.exe
+5 verbose url raw titanium
+6 verbose url resolving [ 'https://registry.npmjs.org/', './titanium' ]
+7 verbose url resolved https://registry.npmjs.org/titanium
+8 info trying registry request attempt 1 at 23:03:23
+9 verbose etag "AJBVN21NXNTSUMVLA7JWWCEJO"
+10 http GET https://registry.npmjs.org/titanium
+11 http 200 https://registry.npmjs.org/titanium
+12 silly registry.get cb [ 200,
+12 silly registry.get   { vary: 'Accept',
+12 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+12 silly registry.get     etag: '"6OJDI2RAUDN25Y7ROJP5H77N4"',
+12 silly registry.get     date: 'Sun, 03 Feb 2013 22:01:40 GMT',
+12 silly registry.get     'content-type': 'application/json',
+12 silly registry.get     'content-length': '221691' } ]
+13 error Error: write EPIPE
+13 error     at errnoException (net.js:770:11)
+13 error     at Object.afterWrite (net.js:594:19)
+14 error If you need help, you may report this log at:
+14 error     <http://github.com/isaacs/npm/issues>
+14 error or email it to:
+14 error     <npm-@googlegroups.com>
+15 error System Windows_NT 6.1.7601
+16 error command "c:\\Program Files (x86)\\nodejs\\\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "titanium" "version"
+17 error cwd C:\wamp\www\revmed\js\dao
+18 error node -v v0.8.17
+19 error npm -v 1.2.0
+20 error syscall write
+21 error code EPIPE
+22 error errno EPIPE
+23 verbose exit [ 1, true ]

@@ -19,7 +19,7 @@ var ChoiceDAO = {
 				tab.push({"choice": choice, "id": id, "state": state})
 			}
 			
-			tab = App.shuffle(tab)
+			//tab = App.shuffle(tab)
 			for(var i = 0; i < length; i++)
 				fn(tab[i])
 		})

@@ -16,7 +16,7 @@ var DB = {
 	db: null,
 	get: function() {
 		if(this.db == null)
-			this.db = new DataBase('revmed_beta12', 1.0, 'evamedic base', 5 * 1024 * 1024);
+			this.db = new DataBase('revmed2', 1.0, 'evamedic base', 5 * 1024 * 1024);
 		return this.db
 	}
 }
